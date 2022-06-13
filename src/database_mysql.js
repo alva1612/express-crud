@@ -15,7 +15,6 @@ import mysql from 'mysql2';
             }
             console.log('Conectado a DB');
         });
-        db.end();
     } catch (error) {
         console.error(error);
     }
